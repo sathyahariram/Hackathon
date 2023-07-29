@@ -1,0 +1,171 @@
+Q37. What is JVM and explain me the Java memory allocation
+----------------------------------------------------------
+JVM-Java Virtual Mechine
+JVM runs the java bytecodes, we get this bytecodes by compiling the java files into class files.
+class files contain  the bytecodes understood by the JVM.
+
+Java memory allocation
+Java memory allocation is a process of allocating or assigning memory to various java objects.
+
+Q41. What is the difference between String and String buffer?
+------------------------------------------------------------
+String is immutable while string buffer is mutable that means we can modify a stringbuffer object once created it 
+without creating any new object, where in string it is not possible.
+
+Q42. What is the difference between array and array list?
+------------------------------------------------------------
+Array is a fixed length data structure, Arraylist is a variable length data structure, it can be resized itsrelf when
+needed. 
+Arrays can hold only homogeneous data type elements, where arraylist can hold homogeneous and hetrogeneous data elements
+Array use for loop to iterate an array, where in arraylist we can use iterater, for loop and for each to iterate the data.
+
+Q43. What is the difference between hash map and Hash table?
+------------------------------------------------------------
+Hash map and hashtable both are data structures that map keys to values, where hashmap allows one null key and multible values whereas
+hashtable doesnot allow any null key or value. Hashmap is generally preffered over hashtable if thread synchronization is not needed since it 
+is faster.
+
+Q44. What is a vector in Java?
+-------------------------------
+
+Q45. What is set in java?
+--------------------------
+Set is an interface which is an unordered collection where duplicate values cannot be stored.
+set is implemented by *Hashset(unordered), *LinkedHashset, *Treeset(ordered form)
+Set has various methods to implement.
+
+Q46. What is an abstract class?
+-------------------------------
+Abstract class is which may contain implemented and not implemented methods, Abstract class cannot
+be instantiated(creating object not possible), but they can be used in subclasses.
+
+Q47. What is an interface?
+--------------------------
+Interface is which is having methods but no body or no implementation, that means which is having abstract methods.
+keyword for the class is inerface. i think we can this as blueprint of a class is called interface.
+An interface specifies the behaviour of a class by providing an abstractive type. Interface cannot be instantiated 
+that is objects cannot be created.
+
+Q48.  Why Java is Platform independent?
+-----------------------------------------
+Java uses JVM(Java Virtual Machine) which converts the code into bytecodes so that we can run the code in any platform.
+JDK- Java Development Kit which is having JVM and JRE so it creates the environment to execute and takes care of the
+difference between bytecodes for different platforms, so java is called platform independent.
+
+Q49. What are access modifiers? Give me an example?
+----------------------------------------------------
+Acces modifiers are used to protect the data and give access that who can use and access the data.
+
+Public: can be accessed anywhere.
+Private: only within same class
+Protected: can be accessed in same class or in same package differentt class or inhereted class of another package.cannotbe used in external package and class.
+Default:within same class or same package different class can be accessed, cannotbe used in external package and class, and inherited class different package.
+
+Q50. What are java exceptions? Give me an example
+---------------------------------------------------------
+when ever we try to do a incorrect operation exceptions will be trowed,
+
+
+
+
+Q51. What is the difference between throws and throwable?
+---------------------------------------------------------
+
+
+
+
+Q52. What is the difference between Error and exception?
+-------------------------------------------------------------
+
+
+
+Q53. What is the difference between Error, throwable and exception?
+--------------------------------------------------------------------
+
+
+
+
+Q54. What are collection APIs, give me an example
+--------------------------------------------------
+
+
+
+
+Q55. What is the difference between final and finally?
+---------------------------------------------------------
+final is keyword and can be used for variables(cannot reassign the value), methods(cannot be overridden), class(cannot inherited)
+Finally is block of code. By using try catch when there is a an exception throwing error can be catched and printed by 
+executing the comple program. finally block will execute when there is no exception also.
+
+Q56. Will java supports multiple inheritance?
+----------------------------------------------
+Yes, Java supports multiple inheritance.
+
+
+Q57.  What are the different types of interface?
+-------------------------------------------------
+Under the collection Interface we have list, set and queue Interfaces.
+List- Arraylist, Linked list, Vector
+Set-Hashset, Linked Hashset
+Queue-priority queue
+
+Map Interface- Hashmap, Linked Hashmap.
+
+Q58. What are wrapper class? Give me an example
+-------------------------------------------------
+converting primitive data type into object and converting the object into corresponding primitive data type
+
+
+eg:
+int a=123;
+Integer a1= new Integer(a);
+or 
+Integer a1= new Integer(50);
+
+eg:
+Integer a1= new Integer(50);
+int a=a1.intvalue();
+
+Q59. What is boxing and unboxing in Java? Explain with an example
+------------------------------------------------------------------
+boxing 
+converting primitive data type into object
+
+eg:
+int a=123;
+Integer a1= new Integer(a);
+or 
+Integer a1= new Integer(50);
+
+unboxing
+converting the object into corresponding primitive data type is unboxing.
+
+eg:
+Integer a1= new Integer(50);
+int a=a1.intvalue();
+
+Q60. Explain for each loop
+------------------------------
+For each loop is used to get the data one by one from a collection of data
+it starts with first item in the array and loop through continue till the last item.
+
+
+
+Q61. What are iterators, explain with an example
+--------------------------------------------------
+The iterators are used for running the loop
+
+
+
+Q 63. What is multithreading, serialization and Generics in Java
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
